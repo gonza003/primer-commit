@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+body div{
+    max-width: 100%;
+    max-height: 100;
+}
+.logo{
+    height: 100px;
+    width:100px;
+}
+
+body{
+    background-color: #683838;
+    }
+header{ 
+    padding-top: 20px;
+    text-align: center;
+}
+.titulogaleria{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+}
+.embutidos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: center;
+}
+.embutidos img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    
+}
+.puroa {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.puroa::before{
+    content: "CHORIZO PURO A";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #5b40f3a6;
+    transform: scale(0);
+    transition: transform .4s;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.puroa:hover::before{
+    transform: scale(1) rotate(360deg);
+}
+.embutidos p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+li {
+    display: inline-block;
+    border-style: groove;
+    list-style-type: none;
+    text-decoration: double;
+    position: relative;
+    font-size: 20px;
+    width: auto;
+    background-color: rgba(175, 180, 165, 0.87);
+}
+li a:hover{
+    color: rgba(253, 253, 253, 0.788);
+}
+.titulo{
+    display: block;
+    font-size: 200%;
+    background-color: rgb(161, 4, 4);
+    text-decoration: none;;
+    text-align: center;
+}
+.titulo a:hover {
+    background-color: rgba(112, 121, 100, 0.87);
+}
+.subtitulo {
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+}
+.titulo__2{
+    background-color: rgb(161, 4, 4);
+}
+.titulo__2 a:hover {
+    background-color: rgba(112, 121, 100, 0.87);
+}
+footer{
+    color: white;
+    text-align: center;
+}
