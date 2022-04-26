@@ -24,12 +24,20 @@ header{
     text-align: center;
     padding-top: 10px;
     background-color: white;
-}
+     transition: all 2s;       
+     }
+.titulogaleria:hover {
+        height: 200px; width: 600px;
+        padding: 20px;
+        background-color: cyan;
+     }
+     
 .embutidos{
     display: flex;
     flex-wrap: wrap;
     margin: 15px;
     justify-content: center;
+    
 }
 .embutidos img{
     width: 200px;
@@ -57,10 +65,114 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
+
 }
 .puroa:hover::before{
     transform: scale(1) rotate(360deg);
 }
+.salamin {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.salamin::before{
+    content: "SALAMIN PICADO GRUESO";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #5b40f3a6;
+    transform: scale(0);
+    transition: transform .4s;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+
+}
+.salamin:hover::before{
+    transform: scale(1) rotate(360deg);
+}
+.salchicha {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.salchicha::before{
+    content: "SALCHICHA PARRILLERA";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #5b40f3a6;
+    transform: scale(0);
+    transition: transform .4s;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+
+}
+.salchicha:hover::before{
+    transform: scale(1) rotate(360deg);
+
+    }
+
+
+.chorizobb {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.chorizobb::before{
+    content: "CHORIZO BOMBON";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #5b40f3a6;
+    transform: scale(0);
+    transition: transform .4s;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.chorizobb:hover::before{
+    transform: scale(1) rotate(360deg);
+    }
+
+    .morcilla {
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    .morcilla::before{
+        content: "MORCILLA ROSCA";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        background-color: #5b40f3a6;
+        transform: scale(0);
+        transition: transform .4s;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+    }
+    .morcilla:hover::before{
+        transform: scale(1) rotate(360deg);
+        }
+
 .embutidos p{
     text-align: center;
     font-size: 15px;
