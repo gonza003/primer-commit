@@ -1,0 +1,9 @@
+*{margin: 0%;
+    padding: 0%;
+}
+.container-fluid{
+    background-color: rgb(143, 137, 137);
+}
+.row{
+    color: rgb(26, 24, 24);
+}
