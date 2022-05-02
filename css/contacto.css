@@ -1,25 +1,80 @@
 *{margin: 0%;
     padding: 0%;
 }
+body{
+    background-color: #683838;
+    }
+header{ 
+        padding-top: 20px;
+        text-align: center;
+    }
+.logo{
+        height: 100px;
+        width:100px;
+    }
+li {
+    display: inline-block;
+    border-style: groove;
+    list-style-type: none;
+    text-decoration: double;
+    position: relative;
+    font-size: 20px;
+    width: auto;
+    background-color: rgba(175, 180, 165, 0.87);
+}
+li a:hover{
+    color: rgba(253, 253, 253, 0.788);
+}
+.titulo{
+    display: block;
+    font-size: 200%;
+    background-color: rgb(161, 4, 4);
+    text-decoration: none;;
+    text-align: center;
+}
+
+.titulo a:hover {
+    background-color: rgba(112, 121, 100, 0.87);
+}
+.subtitulo {
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+}
+.titulo__2{
+    background-color: rgb(161, 4, 4);
+}
+.titulo__2 a:hover {
+    background-color: rgba(112, 121, 100, 0.87);
+}
+footer{
+    color: white;
+    text-align: center;
+}
 .container-fluid{
     height: 1000px;
-    background-image: url(/html1/img/pexels-nataliya-vaitkevich-7236027\ \(3\).jpg);
+    background-image: url(/html1/img/img\ ubicacion.jpg);
     background-repeat: repeat-x;
 }
 .row{
     color: rgb(255, 249, 249);
 }
 iframe {
-    width: 100%;
-    height: 600px;
-    grid-column: 3/6;
+    width: 101%;
+    height: 700px;
 }
-.col-md-6{
+.col-md-4{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5em;
+}
+.text{
+    font-style: italic;
 }
 .col-sm-2 img{
     height: 200px;
     width: 50%;
     object-fit: cover;
+    margin-left: 100px;
 }
+
