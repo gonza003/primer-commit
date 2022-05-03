@@ -28,22 +28,30 @@
           </nav>
       </header>
         
-        <header class="container-fluid">
+        <header class="container-fluid primero">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3 opinion">
             <form class="form-inline" action="/action_page.php">
-                    <div class="form-group">
-                      <label for="email">Email address:</label>
-                      <input type="email" class="form-control" id="email">
-                    </div>
-                    <div class="form-group">
-                      <label for="pwd">Password:</label>
-                      <input type="password" class="form-control" id="pwd">
-                    </div>
-                    <div class="checkbox">
-                      <label><input type="checkbox"> Remember me</label>
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
+              <div class="form-group">
+                <legend><strong>dejenos una opinion</strong></legend>
+              <label for="">nombre</label>
+              <input type="text" placeholder="ingrese su nombre">
+              </div>
+              <div class="form-group">
+                <label for="">telefono</label>
+                <input type="number" placeholder="ingrese su telefono" >
+              </div>
+              <div class="form-group">
+                <label for="email">ingrese su correo:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <textarea name="mensaje" id="mensaje" cols="50" rows="6"></textarea>
+              </div>
+              <div class="checkbox">
+                <button type="submit" class="btn btn-default">enviar opinion</button>
+              </div>
+              <button type="reset" class="btn btn-default">borrar</button>
             </div>
             </form>
             <div class="col-sm-2"><img src="/html1/img/icon-gbbafa0de4_1920.png" alt="">
@@ -53,30 +61,40 @@
               <h6 class="text">ESTAMOS UBICADOS EN ENTRE RIOS 2215, QUILMES OESTE</h6></div>
             </div>
             
-            <div class="col-sm-3">
+            <div class="col-sm-3 correo">
             <form class="form-inline" action="/action_page.php">
                 <div class="form-group">
-                  <label for="email">Email address:</label>
+                  <legend><strong>envienos un correo</strong></legend>
+                <label for="">nombre</label>
+                <input type="text" placeholder="ingrese su nombre">
+                </div>
+                <div class="form-group">
+                  <label for="">telefono</label>
+                  <input type="number" placeholder="ingrese su telefono" >
+                </div>
+                <div class="form-group">
+                  <label for="email">ingrese su correo:</label>
                   <input type="email" class="form-control" id="email">
                 </div>
                 <div class="form-group">
-                  <label for="pwd">Password:</label>
-                  <input type="password" class="form-control" id="pwd">
+                  <textarea name="mensaje" id="mensaje" cols="50" rows="6"></textarea>
                 </div>
                 <div class="checkbox">
-                  <label><input type="checkbox"> Remember me</label>
+                  <button type="submit" class="btn btn-default">enviar correo</button>
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="reset" class="btn btn-default">borrar</button>
             </form>
             </div>
         </div>
         <div class="row">
-          <div class="col-md-6 offset-3">
+          <div class="col-sm-6 offset-3">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13115.183120711294!2d-58.2828991!3d-34.7355417!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5827c65f7ff0d573!2sFrigorifico%20Milu!5e0!3m2!1ses-419!2sar!4v1648499497724!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         </header>
-        <footer>
+        <footer class="container-fluid">
+          <div class="row">
+            <div class="col-6 offset-3">
           <h1><strong class="titulo__2"> <a href="inicio.html">FRIGORIFICO MILU</a></strong></h1>
           <p>telefono: 4250-3803</p>
           <p>e-mail: frigorifico.milu@gmail.com</p>
@@ -91,6 +109,8 @@
               <li><a href="contacto.html">contacto</a>
               </nav>
           </ul>
+          </div>
+        </div>
        </footer>
 </body>
 </html>
