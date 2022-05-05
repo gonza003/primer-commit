@@ -1,0 +1,23 @@
+footer{
+    color: white;
+    text-align: center;
+    .titulo__2{
+        background-color: rgb(161, 4, 4);
+    }
+    .titulo__2 a:hover {
+        background-color: rgba(112, 121, 100, 0.87);
+    }
+    li {
+        display: inline-block;
+        border-style: groove;
+        list-style-type: none;
+        text-decoration: double;
+        position: relative;
+        font-size: 20px;
+        width: auto;
+        background-color: rgba(175, 180, 165, 0.87);
+        a:hover{
+            color: $color-botones
+    }
+    }
+}

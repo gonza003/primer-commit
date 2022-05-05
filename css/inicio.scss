@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+$tamaño: 100%; 
+$color-botones: rgba(253, 253, 253, 0.788);
+$tamaño-logo: 100px;
+body{
+    background-color: #683838;
+    
+    div{
+        max-width: $tamaño;
+        max-height: $tamaño;
+    }
+    .logo{
+        height: $tamaño-logo;
+        width:$tamaño-logo;
+    }
+    .titulo{
+        display: block;
+        font-size: 200%;
+        background-color: rgb(161, 4, 4);
+        text-decoration: none;;
+        text-align: center;
+    }
+    .titulo a:hover {
+        background-color: rgba(112, 121, 100, 0.87);
+    }
+    .subtitulo {
+        font-size: 150%;
+        font-style: italic;
+        text-align: center;
+    }
+    header{ 
+        padding-top: 20px;
+        text-align: center;
+        li {
+            display: inline-block;
+            border-style: groove;
+            list-style-type: none;
+            text-decoration: double;
+            position: relative;
+            font-size: 20px;
+            width: auto;
+            background-color: rgba(175, 180, 165, 0.87);
+            a:hover{
+                color: $color-botones
+            }
+        }
+        
+    }
+    
+    .video__fondo{
+        width: $tamaño;
+        height: $tamaño;
+        }
+    
+    
+    }
+
+
+    @import "_footer"
