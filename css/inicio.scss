@@ -2,9 +2,17 @@
     margin:0;
     padding:0;
 }
+
 $tamaño: 100%; 
 $color-botones: rgba(253, 253, 253, 0.788);
 $tamaño-logo: 100px;
+$bordes: (
+    borde1: 10px,
+    borde2: 5px,
+    borde3: 5px,
+    borde4: 5px,
+    borde5: 5px,
+);
 body{
     background-color: #683838;
     
@@ -34,7 +42,8 @@ body{
     header{ 
         padding-top: 20px;
         text-align: center;
-        li {
+        @each $borde, $px in $bordes {
+            .li1#($borde) {
             display: inline-block;
             border-style: groove;
             list-style-type: none;
@@ -43,8 +52,11 @@ body{
             font-size: 20px;
             width: auto;
             background-color: rgba(175, 180, 165, 0.87);
+            border-radius: $px; 
+            
             a:hover{
                 color: $color-botones
+            }
             }
         }
         
