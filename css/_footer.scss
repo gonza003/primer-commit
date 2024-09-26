@@ -1,0 +1,18 @@
+footer{
+    color: white;
+    text-align: center;
+    .titulo__2{
+        background-color: rgb(161, 4, 4);
+    }
+    .titulo__2 a:hover {
+        background-color: rgba(112, 121, 100, 0.87);
+    }
+    .li2 {
+        @extend .li1;
+        border-radius: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        a:hover{
+            color: $color-botones
+    }
+    }
+}
